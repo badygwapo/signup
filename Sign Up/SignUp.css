@@ -1,0 +1,90 @@
+.bg-container {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.491), rgba(0, 0, 0, 0.416)), url(image/background.gif);
+    height: 100vh;
+}
+
+.container {
+    max-width: 400px;
+    height: 500px;
+    margin: 60px auto;
+    background-color: rgb(186, 179, 179);
+    backdrop-filter: blur(30px);
+    padding: 30px;
+    border-radius: 8px;
+    color: #f4f4f4;
+}
+
+.signup-form {
+    max-width: 400px;
+    margin: auto;
+}
+
+.signup-form .form-control {
+    height: 40px; 
+}
+
+.signup-form .btn-block {
+    width: 100%;
+}
+.imglogo {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.imagelogo {
+    width: 250px;
+    height: auto;
+    margin-left: 200px;
+    padding-top: 25px;
+}
+
+.bg {
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+}
+
+footer {
+    padding-left: 200px;
+    padding-right: 60px;
+}
+
+footer p,
+footer a {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer select {
+    background: transparent;
+    color: #000000;
+    padding-left: 40px;
+    padding-right: 40px;
+    appearance: none;
+    border-radius: 5px;
+}
+
+footer img {
+    filter: invert();
+    top: 8px;
+    left: 12px;
+}
+
+footer .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    top: 15px;
+    right: -115px;
+}
